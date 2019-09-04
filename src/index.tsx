@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import './index.css';
+import './App.css';
 import RouterView from './router/RouterView';
 import { BrowserRouter } from 'react-router-dom';
 // 引入mobx实例

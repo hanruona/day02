@@ -1,6 +1,6 @@
 import axios from 'axios';
 import {AxiosResponse} from 'axios/index';
-import {HttpInfo} from '../types/index'
+// import {HttpInfo} from '../types/index'
 
 
 const instance = axios.create({

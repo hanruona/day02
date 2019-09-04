@@ -1,4 +1,4 @@
-// 一级路由
+
 import Login from '../views/login';
 import Main from '../views/main';
 
