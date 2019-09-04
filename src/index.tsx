@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'mobx-react';
 import router from './router/router';
 import store from './store'
+import 'antd/dist/antd.css'
 ReactDOM.render(
   <Provider {...store}>
     <BrowserRouter>

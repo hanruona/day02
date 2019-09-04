@@ -1,6 +1,6 @@
 
 import Login from '../views/login';
-import Main from '../views/main';
+import Main from '../views/main/index';
 
 export default {
     routes: [{
