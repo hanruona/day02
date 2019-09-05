@@ -16,13 +16,17 @@ export default class Main extends React.Component {
         return (
             <div>
                 <Header />
-                <div className="maini-left">
-                    <MenuAntd />
+                <div className="router-box">
+
+                    <div className="maini-left">
+                        <MenuAntd />
+                    </div>
+                    <div className="maini-right">
+                        {/* <RouterView routes={this.props.children[0]} /> */}
+                        <Looktest />
+                    </div>
                 </div>
-                <div className="maini-right">
-                    {/* <RouterView routes={this.props.children[0]} /> */}
-                    <Looktest />
-                </div>
+
             </div>
         )
     }
